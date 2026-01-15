@@ -21,7 +21,7 @@
 # Zombie UFO v1.0
 [Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-ufo-v1.0/ZombieUFO-v1_0.zip)<br>
 
-<img width="335" height="237" alt="Zombie_UFO1" src="https://github.com/user-attachments/assets/94852580-81c2-4661-a5f8-d2937421cb6f" />
-<img width="335" height="237" alt="Zombie_UFO2" src="https://github.com/user-attachments/assets/638484d0-e821-4b50-b38b-71ee7335d034" /><br>
-<img width="335" height="237" alt="Zombie_UFO3" src="https://github.com/user-attachments/assets/ff0363b7-c36f-49a9-9393-e918ae04603d" />
-<img width="335" height="237" alt="Zombie_UFO4" src="https://github.com/user-attachments/assets/9521de14-2b0d-4346-95c8-9da6ec1e4a01" />
+<img width="335" height="237" alt="Zombie_UFO1" src="https://github.com/user-attachments/assets/76845545-a232-4bd6-af04-31616b608bc5" />
+<img width="335" height="237" alt="Zombie_UFO2" src="https://github.com/user-attachments/assets/348b0991-4742-49be-b32d-75274e7da84f" /><br>
+<img width="335" height="237" alt="Zombie_UFO3" src="https://github.com/user-attachments/assets/dbf91aa5-5f22-4e18-a5e3-ddb5f15c8e13" />
+<img width="335" height="237" alt="Zombie_UFO4" src="https://github.com/user-attachments/assets/582b96f3-fda8-4523-8ba7-e3f109b94e37" />
