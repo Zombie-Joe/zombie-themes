@@ -21,7 +21,17 @@
 # Zombie UFO v1.0
 [Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-ufo-v1.0/ZombieUFO-v1_0.zip)<br>
 
+## Screenshots<br>
 <img width="335" height="237" alt="Zombie_UFO1" src="https://github.com/user-attachments/assets/76845545-a232-4bd6-af04-31616b608bc5" />
 <img width="335" height="237" alt="Zombie_UFO2" src="https://github.com/user-attachments/assets/348b0991-4742-49be-b32d-75274e7da84f" /><br>
 <img width="335" height="237" alt="Zombie_UFO3" src="https://github.com/user-attachments/assets/dbf91aa5-5f22-4e18-a5e3-ddb5f15c8e13" />
 <img width="335" height="237" alt="Zombie_UFO4" src="https://github.com/user-attachments/assets/582b96f3-fda8-4523-8ba7-e3f109b94e37" />
+
+# Zombie Industrial v1.0
+[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-industrial-v1.0/ZombieIndustrial-v1_0.zip)<br>
+
+## Screenshots<br>
+<img width="334" height="239" alt="Zombie_Industrial_Screenshot_1" src="https://github.com/user-attachments/assets/a713284a-1252-4be0-b635-6fc91ca25efd" />
+<img width="334" height="239" alt="Zombie_Industrial_Screenshot_2" src="https://github.com/user-attachments/assets/b83ddf43-df23-4e5b-9543-82b61c9757d3" /><br>
+<img width="334" height="239" alt="Zombie_Industrial_Screenshot_3" src="https://github.com/user-attachments/assets/0b852bf1-f7a3-4984-a769-ef474444a8b4" />
+<img width="334" height="239" alt="Zombie_Industrial_Screenshot_4" src="https://github.com/user-attachments/assets/a811d904-ff62-4d6a-978a-96c6f6d1d650" />
