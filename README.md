@@ -1,5 +1,7 @@
-# WiFi Pineapple Pager Themes
+# Check out my Theme Tutorial Videos on YouTube:
+[![Hak5 Wifi Pineapple Pager Theme Setup](https://img.youtube.com/vi/EX5YkA8oTkU/mqdefault.jpg)](https://www.youtube.com/watch?v=EX5YkA8oTkU)
 
+# All WiFi Pineapple Pager Themes
 # Zombie Pineapple v1.1
 [Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-pineapple-v1.1/ZombiePineapple-v1_1.zip)<br>
 
