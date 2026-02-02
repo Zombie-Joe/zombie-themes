@@ -1,5 +1,6 @@
 # Check out my Theme Tutorial Videos on YouTube:
-[![Hak5 Wifi Pineapple Pager Theme Setup](https://img.youtube.com/vi/EX5YkA8oTkU/mqdefault.jpg)](https://www.youtube.com/watch?v=EX5YkA8oTkU)
+[![Hak5 Wifi Pineapple Pager Theme Setup #01](https://img.youtube.com/vi/EX5YkA8oTkU/mqdefault.jpg)](https://www.youtube.com/watch?v=EX5YkA8oTkU)
+[![Hak5 Wifi Pineapple Pager Theme Graphics #02](https://img.youtube.com/vi/474G-pmDj34/mqdefault.jpg)](https://www.youtube.com/watch?v=474G-pmDj34)
 
 # All WiFi Pineapple Pager Themes
 # Zombie Pineapple v1.1
