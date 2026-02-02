@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard Layer Placement Tool</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #1a1a1a;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .ascii-art {
+      font-family: Consolas, Monaco, 'Courier New', monospace;
+      font-size: 18px;
+      line-height: 1.25;
+      color: #ffcc00;
+      white-space: pre;
+      user-select: none;
+      display: inline-block;
+      text-align: left;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ffcc00;
+      font-size: 20px;
+      margin-bottom: 22px;
+      border-bottom: 2px solid #333;
+      padding-bottom: 8px;
+    }
+
+    .workspace {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .panel {
+      background: #2a2a2a;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+      text-align: left;
+    }
+
+    .preview-panel {
+      width: 520px;
+    }
+
+    .panel-title {
+      text-align: center;
+      margin-bottom: 12px;
+      font-weight: bold;
+      color: #ffcc00;
+    }
+
+    #window {
+      width: 480px;
+      height: 222px;
+      border: 2px solid #444;
+      background: #000;
+      position: relative;
+      overflow: hidden;
+      user-select: none;
+      margin: 0 auto;
+    }
+
+    #background {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      pointer-events: none;
+    }
+
+    .overlay {
+      position: absolute;
+      cursor: default;
+    }
+
+    .controls {
+      width: 520px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .file-input {
+      display: none;
+    }
+
+    .file-label {
+      background: #3a3a3a;
+      color: #e0e0e0;
+      padding: 10px;
+      border-radius: 4px;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid #555;
+      transition: background 0.2s;
+    }
+
+    .file-label:hover {
+      background: #444;
+    }
+
+    .file-name {
+      font-size: 13px;
+      color: #ffffff;
+      margin-top: 5px;
+      word-break: break-word;
+    }
+
+    .hint {
+      font-size: 12px;
+      color: #aaa;
+      border-left: 4px solid #ffcc00;
+      padding-left: 10px;
+      background: #252525;
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    #terminal {
+      background: #0d0d0d;
+      color: #ffcc00;
+      font-family: Consolas, Monaco, monospace;
+      font-size: 13px;
+      padding: 15px;
+      border-radius: 4px;
+      white-space: pre;
+      overflow-x: auto;
+      max-height: 300px;
+      border: 1px solid #333;
+      margin-top: 20px;
+      position: relative;
+    }
+
+    .color-picker {
+      display: flex;
+      gap: 5px;
+      margin-top: 10px;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+
+    /* 🔽 Buttons made smaller here */
+    .color-btn {
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+      border: 1px solid #555;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .color-btn:hover {
+      transform: scale(1.15);
+    }
+
+    @media (max-width: 900px) {
+      .preview-panel,
+      .controls {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+<pre class="ascii-art">
+__________            ___.   .__
+\____    /____   _____\_ |__ |__| ____
+  /     //  _ \ /     \| __ \|  |/ __ \
+ /     /(  <_> )  Y Y  \ \_\ \  \  ___/
+/_______ \____/|__|_|  /___  /__|\___  >
+        \/           \/ PNG\/PLACER  \/
+</pre>
+
+<h1 id="mainTitle">Dashboard Layer Placement Tool</h1>
+
+<div class="workspace">
+
+  <div class="panel preview-panel">
+    <div class="panel-title" id="previewTitle">Preview Screen (480×222)</div>
+    <div id="window">
+      <img id="background">
+    </div>
+  </div>
+
+  <div class="panel controls">
+    <label for="bgInput" class="file-label">Load Background Image</label>
+    <input type="file" id="bgInput" class="file-input" accept="image/*">
+    <div id="bgFilename" class="file-name"></div>
+
+    <label for="overlayInput" class="file-label">Add Overlay PNG</label>
+    <input type="file" id="overlayInput" class="file-input" accept="image/png">
+    <div id="overlayFilenames" class="file-name"></div>
+
+    <div class="hint" id="hintBox">
+      Click an overlay to select<br>
+      Click & hold to move<br>
+      Arrow keys = nudge (Shift = 10px)<br>
+      Delete = remove overlay
+    </div>
+  </div>
+
+</div>
+
+<div id="terminal" class="panel"></div>
+
+<div class="color-picker" id="colorPicker">
+  <div class="color-btn" style="background:#ffcc00" data-color="#ffcc00"></div>
+  <div class="color-btn" style="background:#00ffff" data-color="#00ffff"></div>
+  <div class="color-btn" style="background:#ff00ff" data-color="#ff00ff"></div>
+  <div class="color-btn" style="background:#ff0000" data-color="#ff0000"></div>
+  <div class="color-btn" style="background:#00ff00" data-color="#00ff00"></div>
+  <div class="color-btn" style="background:#ffffff" data-color="#ffffff"></div>
+  <div class="color-btn" style="background:#ff6600" data-color="#ff6600"></div>
+  <div class="color-btn" style="background:#ff4444" data-color="#ff4444"></div>
+  <div class="color-btn" style="background:#4444ff" data-color="#4444ff"></div>
+  <div class="color-btn" style="background:#aa00aa" data-color="#aa00aa"></div>
+  <div class="color-btn" style="background:#00aa88" data-color="#00aa88"></div>
+  <div class="color-btn" style="background:#888888" data-color="#888888"></div>
+  <div class="color-btn" style="background:#ffaaee" data-color="#ffaaee"></div>
+  <div class="color-btn" style="background:#86cc2b" data-color="#86cc2b"></div>
+</div>
+
+</div>
+
+<script>
+  const bgInput = document.getElementById('bgInput');
+  const overlayInput = document.getElementById('overlayInput');
+  const background = document.getElementById('background');
+  const windowEl = document.getElementById('window');
+  const terminalEl = document.getElementById('terminal');
+  const bgFilenameEl = document.getElementById('bgFilename');
+  const overlayFilenamesEl = document.getElementById('overlayFilenames');
+  const hintBox = document.getElementById('hintBox');
+  const colorPicker = document.getElementById('colorPicker');
+  const mainTitle = document.getElementById('mainTitle');
+  const previewTitle = document.getElementById('previewTitle');
+  const asciiArt = document.querySelector('.ascii-art');
+
+  const IMAGE_BASE_PATH = 'assets/';
+
+  let overlays = [];
+  let selectedOverlay = null;
+  let isDragging = false;
+
+  let startMouseX = 0;
+  let startMouseY = 0;
+  let startX = 0;
+  let startY = 0;
+
+  bgInput.addEventListener('change', e => {
+    const file = e.target.files[0];
+    if (file) {
+      background.src = URL.createObjectURL(file);
+      bgFilenameEl.textContent = file.name;
+    } else {
+      bgFilenameEl.textContent = '';
+    }
+  });
+
+  overlayInput.addEventListener('change', e => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    const img = document.createElement('img');
+    img.src = URL.createObjectURL(file);
+    img.className = 'overlay';
+    img.dataset.filename = file.name;
+    img.style.left = '0px';
+    img.style.top = '0px';
+
+    windowEl.appendChild(img);
+    overlays.push(img);
+    selectedOverlay = img;
+
+    updateOverlayFilenames();
+    updateTerminal();
+  });
+
+  function updateOverlayFilenames() {
+    if (overlays.length === 0) {
+      overlayFilenamesEl.textContent = '';
+      return;
+    }
+    const names = overlays.map(o => o.dataset.filename);
+    overlayFilenamesEl.textContent = names.join(', ');
+  }
+
+  windowEl.addEventListener('mousedown', e => {
+    if (!e.target.classList.contains('overlay')) return;
+
+    selectedOverlay = e.target;
+    isDragging = true;
+
+    startMouseX = e.clientX;
+    startMouseY = e.clientY;
+    startX = parseInt(selectedOverlay.style.left);
+    startY = parseInt(selectedOverlay.style.top);
+  });
+
+  document.addEventListener('mousemove', e => {
+    if (!isDragging || !selectedOverlay) return;
+
+    const dx = e.clientX - startMouseX;
+    const dy = e.clientY - startMouseY;
+
+    let x = startX + dx;
+    let y = startY + dy;
+
+    x = Math.max(0, Math.min(x, windowEl.clientWidth - selectedOverlay.width));
+    y = Math.max(0, Math.min(y, windowEl.clientHeight - selectedOverlay.height));
+
+    selectedOverlay.style.left = `${x}px`;
+    selectedOverlay.style.top = `${y}px`;
+
+    updateTerminal();
+  });
+
+  document.addEventListener('mouseup', () => {
+    isDragging = false;
+  });
+
+  document.addEventListener('keydown', e => {
+    if (!selectedOverlay) return;
+
+    if (e.key === 'Delete' || e.key === 'Backspace') {
+      windowEl.removeChild(selectedOverlay);
+      overlays = overlays.filter(o => o !== selectedOverlay);
+      selectedOverlay = null;
+      updateOverlayFilenames();
+      updateTerminal();
+      return;
+    }
+
+    let step = e.shiftKey ? 10 : 1;
+    let x = parseInt(selectedOverlay.style.left);
+    let y = parseInt(selectedOverlay.style.top);
+
+    switch (e.key) {
+      case 'ArrowLeft': x -= step; break;
+      case 'ArrowRight': x += step; break;
+      case 'ArrowUp': y -= step; break;
+      case 'ArrowDown': y += step; break;
+      default: return;
+    }
+
+    e.preventDefault();
+
+    x = Math.max(0, Math.min(x, windowEl.clientWidth - selectedOverlay.width));
+    y = Math.max(0, Math.min(y, windowEl.clientHeight - selectedOverlay.height));
+
+    selectedOverlay.style.left = `${x}px`;
+    selectedOverlay.style.top = `${y}px`;
+
+    updateTerminal();
+  });
+
+  function updateTerminal() {
+    let lines = [];
+    lines.push('"selected_layers": [');
+
+    overlays.forEach((img, index) => {
+      const x = Math.round(parseInt(img.style.left));
+      const y = Math.round(parseInt(img.style.top));
+      const comma = index < overlays.length - 1 ? ',' : '';
+      lines.push(
+        `  { "image_path": "${IMAGE_BASE_PATH}${img.dataset.filename}", "x": ${x}, "y": ${y} }${comma}`
+      );
+    });
+
+    lines.push('],');
+
+    terminalEl.textContent = lines.join('\n');
+  }
+
+  updateTerminal();
+
+  colorPicker.addEventListener('click', e => {
+    if (!e.target.classList.contains('color-btn')) return;
+    const color = e.target.dataset.color;
+
+    terminalEl.style.color = color;
+    hintBox.style.borderLeftColor = color;
+    mainTitle.style.color = color;
+    previewTitle.style.color = color;
+    asciiArt.style.color = color;
+  });
+</script>
+
+</body>
+</html>
