@@ -5,7 +5,7 @@
 
 # All WiFi Pineapple Pager Themes
 # Zombie Pineapple v1.2
-[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-pineapple-v1.1/ZombiePineapple-v1_1.zip)<br>
+[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-pineapple-v1.2/ZombiePineapple-v1_2.zip)<br>
 
 ## Screenshots<br>
 <img width="334" height="239" alt="Update_1" src="https://github.com/user-attachments/assets/4028d70c-090f-4438-a1fe-50b7f3b86e61" />
