@@ -14,7 +14,7 @@
 <img width="332" height="235" alt="Zombie_Pineapple_Screenshot3" src="https://github.com/user-attachments/assets/30dbb7f0-6eff-4bc8-b441-e3d99b892675" />
 
 # Zombie Punk v1.1
-[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-punk-v1.0/ZombiePunk-v1_0.zip)<br>
+[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-punk-v1.1/ZombiePunk-v1_1.zip)<br>
 
 ## Screenshots<br>
 <img width="335" height="237" alt="Zombie_Punk1" src="https://github.com/user-attachments/assets/57220cb6-34e7-467c-baec-71b1496bd7d3" />
