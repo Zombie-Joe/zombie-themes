@@ -32,7 +32,7 @@
 <img width="335" height="237" alt="Zombie_UFO4" src="https://github.com/user-attachments/assets/582b96f3-fda8-4523-8ba7-e3f109b94e37" />
 
 # Zombie Industrial v1.1
-[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-industrial-v1.0/ZombieIndustrial-v1_0.zip)<br>
+[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-industrial-v1.1/ZombieIndustrial-v1_1.zip)<br>
 
 ## Screenshots<br>
 <img width="334" height="239" alt="Zombie_Industrial_Screenshot_1" src="https://github.com/user-attachments/assets/a713284a-1252-4be0-b635-6fc91ca25efd" />
