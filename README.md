@@ -3,6 +3,7 @@
 [![Hak5 Wifi Pineapple Pager Theme Graphics #02](https://img.youtube.com/vi/474G-pmDj34/mqdefault.jpg)](https://www.youtube.com/watch?v=474G-pmDj34)
 [![Hak5 Wifi Pineapple Pager Themes v1.0.7 Firmware Update #03](https://img.youtube.com/vi/s7UQ0ysUFlY/mqdefault.jpg)](https://www.youtube.com/watch?v=s7UQ0ysUFlY)
 [![Hak5 Wifi Pineapple Pager Wardriving Dashboard Tutorial #04](https://img.youtube.com/vi/RPVjtpDGzug/mqdefault.jpg)](https://www.youtube.com/watch?v=RPVjtpDGzug)
+[![Hak5 Wifi Pineapple Pager Custom Keyboards - Theme Tutorial #05](https://img.youtube.com/vi/2LYFtDdLdkE/mqdefault.jpg)](https://www.youtube.com/watch?v=2LYFtDdLdkE)
 
 # All WiFi Pineapple Pager Themes
 
