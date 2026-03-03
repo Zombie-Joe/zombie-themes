@@ -25,6 +25,15 @@
 <img width="332" height="235" alt="Update_4" src="https://github.com/user-attachments/assets/1312609e-c116-43ed-b28f-053c8719595c" />
 <img width="332" height="235" alt="Zombie_Pineapple_Screenshot3" src="https://github.com/user-attachments/assets/30dbb7f0-6eff-4bc8-b441-e3d99b892675" />
 
+# Zombie Kal v1.0
+[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-kal-v1.0/ZombieKal-v1_0.zip)<br>
+
+## Screenshots
+<img width="335" height="237" alt="Zombie_Kal1" src="https://github.com/user-attachments/assets/579714c1-a13c-4acc-8208-4bbd7d7e73d8" />
+<img width="335" height="237" alt="Zombie_Kal2" src="https://github.com/user-attachments/assets/425198c2-1039-429f-9707-7e6e2b2f667a" /><br>
+<img width="335" height="237" alt="Zombie_Kal3" src="https://github.com/user-attachments/assets/76611b2a-b8ac-49aa-bd29-ca4d204c09c8" />
+<img width="335" height="237" alt="Zombie_Kal4" src="https://github.com/user-attachments/assets/1067f701-d17b-4742-82e0-5fb8170c89f3" />
+
 # Zombie Punk v1.1
 [Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-punk-v1.1/ZombiePunk-v1_1.zip)<br>
 
