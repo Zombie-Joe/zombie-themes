@@ -1,6 +1,6 @@
 {
   "author": "Zombie Joe",
-  "theme_version": "1.1",
+  "theme_version": "1.0",
   "theme_framework_version": "0.5",
 
   "status_bars": {
@@ -167,7 +167,7 @@
     "blue":{ "r":100, "g":100, "b":100 },
     "red":{ "r":250, "g":72, "b":9 },
     "dark_red":{ "r":110, "g":31, "b":23 },
-    "yellow":{ "r":248, "g":229, "b":67 },
+    "yellow":{ "r":255, "g":255, "b":255 },
     "gray":{ "r":128, "g":128, "b":128 },
     "green":{ "r":42, "g":180, "b":42 },
     "dark_green":{ "r":2, "g":101, "b":2 },
