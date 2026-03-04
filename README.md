@@ -31,7 +31,7 @@
 ## Screenshots
 <img width="335" height="237" alt="Zombie_Kal1" src="https://github.com/user-attachments/assets/579714c1-a13c-4acc-8208-4bbd7d7e73d8" />
 <img width="335" height="237" alt="Zombie_Kal2" src="https://github.com/user-attachments/assets/425198c2-1039-429f-9707-7e6e2b2f667a" /><br>
-<img width="335" height="237" alt="Zombie_Kal3" src="https://github.com/user-attachments/assets/76611b2a-b8ac-49aa-bd29-ca4d204c09c8" />
+<img width="335" height="237" alt="Zombie_Kal3" src="https://github.com/user-attachments/assets/308e49d5-6260-490e-9190-c6d59a3a4b7f" />
 <img width="335" height="237" alt="Zombie_Kal4" src="https://github.com/user-attachments/assets/1067f701-d17b-4742-82e0-5fb8170c89f3" />
 
 # Zombie Punk v1.1
