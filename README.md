@@ -4,6 +4,7 @@
 [![Hak5 Wifi Pineapple Pager Themes v1.0.7 Firmware Update #03](https://img.youtube.com/vi/s7UQ0ysUFlY/mqdefault.jpg)](https://www.youtube.com/watch?v=s7UQ0ysUFlY)
 [![Hak5 Wifi Pineapple Pager Wardriving Dashboard Tutorial #04](https://img.youtube.com/vi/RPVjtpDGzug/mqdefault.jpg)](https://www.youtube.com/watch?v=RPVjtpDGzug)
 [![Hak5 Wifi Pineapple Pager Custom Keyboards - Theme Tutorial #05](https://img.youtube.com/vi/2LYFtDdLdkE/mqdefault.jpg)](https://www.youtube.com/watch?v=2LYFtDdLdkE)
+[![Loki Theme Tutorial - Cyber Security Tool for the Wifi Pineapple Pager #06](https://img.youtube.com/vi/jTPnGSt0QUg/mqdefault.jpg)](https://www.youtube.com/watch?v=jTPnGSt0QUg)
 
 # All WiFi Pineapple Pager Themes
 
@@ -33,6 +34,15 @@
 <img width="335" height="237" alt="Zombie_Kal2" src="https://github.com/user-attachments/assets/425198c2-1039-429f-9707-7e6e2b2f667a" /><br>
 <img width="335" height="237" alt="Zombie_Kal3" src="https://github.com/user-attachments/assets/308e49d5-6260-490e-9190-c6d59a3a4b7f" />
 <img width="335" height="237" alt="Zombie_Kal4" src="https://github.com/user-attachments/assets/1067f701-d17b-4742-82e0-5fb8170c89f3" />
+
+# Zombie Ceez v1.0
+[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-ceez-v1.0/ZombieCeez-v1_0.zip)<br>
+
+## Screenshots
+<img width="335" height="237" alt="Zombie_Ceez1" src="https://github.com/user-attachments/assets/caf7c2b6-d973-4d19-a914-055708b84e96" />
+<img width="335" height="237" alt="Zombie_Ceez2" src="https://github.com/user-attachments/assets/331f643c-27eb-44df-b9eb-b583cf8ae85e" /><br>
+<img width="335" height="237" alt="Zombie_Ceez3" src="https://github.com/user-attachments/assets/29e9dd46-3c9a-4bba-b11d-5b9c319c7909" />
+<img width="335" height="237" alt="Zombie_Ceez4" src="https://github.com/user-attachments/assets/fcf16d5d-9901-4b26-8c01-ea8d038524d6" />
 
 # Zombie Punk v1.1
 [Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-punk-v1.1/ZombiePunk-v1_1.zip)<br>
