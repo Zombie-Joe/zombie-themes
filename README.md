@@ -8,8 +8,8 @@
 
 # All WiFi Pineapple Pager Themes
 
-# Zombie Industrial v1.1
-[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-industrial-v1.1/ZombieIndustrial-v1_1.zip)<br>
+# Zombie Industrial v1.2
+[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-industrial-v1.2/ZombieIndustrial-v1_2.zip)<br>
 
 ## Screenshots<br>
 <img width="334" height="239" alt="Zombie_Industrial_Screenshot_1" src="https://github.com/user-attachments/assets/a713284a-1252-4be0-b635-6fc91ca25efd" />
@@ -17,8 +17,8 @@
 <img width="334" height="239" alt="Zombie_Industrial_Screenshot_3" src="https://github.com/user-attachments/assets/0b852bf1-f7a3-4984-a769-ef474444a8b4" />
 <img width="334" height="239" alt="Zombie_Industrial_Screenshot_4" src="https://github.com/user-attachments/assets/a811d904-ff62-4d6a-978a-96c6f6d1d650" />
 
-# Zombie Pineapple v1.2
-[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-pineapple-v1.2/ZombiePineapple-v1_2.zip)<br>
+# Zombie Pineapple v1.3
+[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-pineapple-v1.3/ZombiePineapple-v1_3.zip)<br>
 
 ## Screenshots<br>
 <img width="334" height="239" alt="Update_1" src="https://github.com/user-attachments/assets/4028d70c-090f-4438-a1fe-50b7f3b86e61" />
@@ -26,8 +26,8 @@
 <img width="332" height="235" alt="Update_4" src="https://github.com/user-attachments/assets/1312609e-c116-43ed-b28f-053c8719595c" />
 <img width="332" height="235" alt="Zombie_Pineapple_Screenshot3" src="https://github.com/user-attachments/assets/30dbb7f0-6eff-4bc8-b441-e3d99b892675" />
 
-# Zombie Kal v1.0
-[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-kal-v1.0/ZombieKal-v1_0.zip)<br>
+# Zombie Kal v1.1
+[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-kal-v1.1/ZombieKal-v1_1.zip)<br>
 
 ## Screenshots
 <img width="335" height="237" alt="Zombie_Kal1" src="https://github.com/user-attachments/assets/579714c1-a13c-4acc-8208-4bbd7d7e73d8" />
@@ -44,8 +44,8 @@
 <img width="335" height="237" alt="Zombie_Ceez3" src="https://github.com/user-attachments/assets/29e9dd46-3c9a-4bba-b11d-5b9c319c7909" />
 <img width="335" height="237" alt="Zombie_Ceez4" src="https://github.com/user-attachments/assets/fcf16d5d-9901-4b26-8c01-ea8d038524d6" />
 
-# Zombie Punk v1.1
-[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-punk-v1.1/ZombiePunk-v1_1.zip)<br>
+# Zombie Punk v1.2
+[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-punk-v1.2/ZombiePunk-v1_2.zip)<br>
 
 ## Screenshots<br>
 <img width="335" height="237" alt="Zombie_Punk1" src="https://github.com/user-attachments/assets/57220cb6-34e7-467c-baec-71b1496bd7d3" />
@@ -53,8 +53,8 @@
 <img width="332" height="236" alt="Zombie_Punk4" src="https://github.com/user-attachments/assets/d6443c39-5168-49d6-90f6-6777be2e65f4" />
 <img width="333" height="239" alt="Zombie_Punk3" src="https://github.com/user-attachments/assets/2aefda64-1f3d-446e-bc0d-4a24d21e3849" />
 
-# Zombie UFO v1.1
-[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-ufo-v1.1/ZombieUFO-v1_1.zip)<br>
+# Zombie UFO v1.2
+[Download latest version] (https://github.com/Zombie-Joe/zombie-themes/releases/download/zombie-ufo-v1.2/ZombieUFO-v1_2.zip)<br>
 
 ## Screenshots<br>
 <img width="335" height="237" alt="Zombie_UFO1" src="https://github.com/user-attachments/assets/76845545-a232-4bd6-af04-31616b608bc5" />
